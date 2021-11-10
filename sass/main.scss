@@ -1,0 +1,21 @@
+@import 'components/header';
+@import 'components/footer';
+@import 'components/menu';
+
+.tablaServicios{
+    border: 3px solid black;
+    width: 100%;
+    th, td{
+        border: 1px solid black;
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+    th{
+        background-color: #fec89a;
+    }
+    td{
+        background-color: #f8edeb;
+    }
+}
+

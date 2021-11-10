@@ -1,0 +1,28 @@
+footer{
+    background: linear-gradient(to right, #6E8387, #fcd5ce);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    color: #000000;
+    margin: 5px 10px;
+}
+
+.listaRedes{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemRedes{
+    list-style: none;
+    margin-right: 1rem;
+    a{
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+    }
+}
