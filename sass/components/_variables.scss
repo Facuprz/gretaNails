@@ -1,0 +1,31 @@
+// Colores
+
+$color-principal: #6E8387;
+$color-gradiente: linear-gradient(to right, #6E8387, #fcd5ce);
+$color-fuente: black;
+
+$color-1: #ffb5a7;
+$color-2: #fcd5ce;
+$color-3: #f8edeb;
+$color-4: #f9dcc4;
+$color-5: #fec89a;
+
+//Mixins
+
+@mixin cajaFlex ($principal, $cruzado, $direction) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-direction: $direction;
+}
+
+@mixin cajaPersonalizada {
+    color: $color-fuente;
+    text-align: center;
+    margin: 30px;
+}
+
+@mixin border {
+    border: 1px solid black;
+    text-align: center;
+}
