@@ -49,8 +49,9 @@
     grid-area: 2 / 1 / 3 / 2; } }
 
 body {
-  padding-top: 50px;
+  padding-top: 60px;
   margin: 0;
+  font-family: monospace;
   background: linear-gradient(180deg, #6e8387 35%, #fec89a 100%); }
 
 .cajaIndex {
@@ -58,72 +59,114 @@ body {
   text-align: center;
   margin: 30px; }
 
-.contenedorServicios {
-  margin-top: 5px; }
+.container {
+  margin-bottom: 10px; }
 
-.parent {
+.contenedorServicios {
+  margin-top: 15px; }
+
+.parentServicios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(9, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  border: solid 1px black;
-  background: #eaeaea; }
-  .parent div {
+  background: #eaeaea;
+  margin: 10px; }
+  .parentServicios div {
     border: 1px solid black;
     text-align: center;
-    margin: 1px; }
+    margin: 2px; }
 
-.div1 {
+.divServicios1 {
   grid-area: 1 / 1 / 2 / 4;
   background-color: #fcd5ce; }
 
-.div2 {
+.divServicios2 {
   grid-area: 2 / 1 / 3 / 2; }
 
-.div3 {
+.divServicios3 {
   grid-area: 2 / 2 / 3 / 3; }
 
-.div4 {
+.divServicios4 {
   grid-area: 2 / 3 / 3 / 4; }
 
-.div5 {
+.divServicios5 {
   grid-area: 3 / 1 / 4 / 2; }
 
-.div6 {
+.divServicios6 {
   grid-area: 3 / 2 / 4 / 3; }
 
-.div7 {
+.divServicios7 {
   grid-area: 3 / 3 / 4 / 4; }
 
-.div8 {
+.divServicios8 {
   grid-area: 4 / 1 / 5 / 2; }
 
-.div9 {
+.divServicios9 {
   grid-area: 4 / 2 / 5 / 3; }
 
-.div10 {
+.divServicios10 {
   grid-area: 4 / 3 / 5 / 4; }
 
-.div11 {
+.divServicios11 {
   grid-area: 5 / 1 / 6 / 2; }
 
-.div12 {
+.divServicios12 {
   grid-area: 5 / 2 / 6 / 3; }
 
-.div13 {
+.divServicios13 {
   grid-area: 5 / 3 / 6 / 4; }
 
-.mainBlog {
+.divServicios14 {
+  grid-area: 6 / 1 / 7 / 2; }
+
+.divServicios15 {
+  grid-area: 6 / 2 / 7 / 3; }
+
+.divServicios16 {
+  grid-area: 6 / 3 / 7 / 4; }
+
+.divServicios17 {
+  grid-area: 7 / 1 / 8 / 2; }
+
+.divServicios18 {
+  grid-area: 7 / 2 / 8 / 3; }
+
+.divServicios19 {
+  grid-area: 7 / 3 / 8 / 4; }
+
+.divServicios20 {
+  grid-area: 8 / 1 / 9 / 2; }
+
+.divServicios21 {
+  grid-area: 8 / 2 / 9 / 3; }
+
+.divServicios22 {
+  grid-area: 8 / 3 / 9 / 4; }
+
+.divServicios23 {
+  grid-area: 9 / 1 / 10 / 2; }
+
+.divServicios24 {
+  grid-area: 9 / 2 / 10 / 3; }
+
+.divServicios25 {
+  grid-area: 9 / 3 / 10 / 4; }
+
+.parentBlog {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
-  grid-row-gap: 0px; }
-  .mainBlog div {
+  grid-row-gap: 0px;
+  margin-top: 15px; }
+  .parentBlog div {
     border: 1px solid black;
     text-align: center;
     margin: 5px; }
+    .parentBlog div h2 {
+      color: #eaeaea; }
 
 .divBlog1 {
   grid-area: 1 / 1 / 2 / 2; }
@@ -135,7 +178,7 @@ body {
   grid-area: 1 / 3 / 2 / 4; }
 
 @media only screen and (max-width: 480px) {
-  .mainBlog {
+  .parentBlog {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -151,14 +194,14 @@ body {
 form {
   border: solid 2px black; }
 
-.contenedorForm {
+.parentForm {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px; }
-  .contenedorForm h2 {
+  .parentForm h2 {
     color: #f8edeb;
     text-align: center; }
 
